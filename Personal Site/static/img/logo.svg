@@ -1,0 +1,22 @@
+<svg width="43" height="21" viewBox="0 0 43 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_3_91" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="43" height="21">
+<line x1="1.5" y1="8.5" x2="1.5" y2="13.5" stroke="black" stroke-width="3" stroke-linecap="round"/>
+<line x1="41.5" y1="8.5" x2="41.5" y2="13.5" stroke="black" stroke-width="3" stroke-linecap="round"/>
+<line x1="7.5" y1="8.5" x2="7.5" y2="13.5" stroke="black" stroke-width="3" stroke-linecap="round"/>
+<line x1="35.5" y1="8.5" x2="35.5" y2="13.5" stroke="black" stroke-width="3" stroke-linecap="round"/>
+<line x1="14.5" y1="5.5" x2="14.5" y2="16.5" stroke="black" stroke-width="3" stroke-linecap="round"/>
+<line x1="30.5" y1="5.5" x2="30.5" y2="16.5" stroke="black" stroke-width="3" stroke-linecap="round"/>
+<line x1="19.5" y1="1.5" x2="19.5" y2="19.5" stroke="black" stroke-width="3" stroke-linecap="round"/>
+<line x1="24.5" y1="1.5" x2="24.5" y2="19.5" stroke="black" stroke-width="3" stroke-linecap="round"/>
+</mask>
+<g mask="url(#mask0_3_91)">
+<rect x="-2" width="48" height="21" fill="url(#paint0_linear_3_91)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_3_91" x1="22" y1="0" x2="22" y2="21" gradientUnits="userSpaceOnUse">
+<stop stop-color="#003836"/>
+<stop offset="0.453125" stop-color="#52F6F7"/>
+<stop offset="0.992843" stop-color="#F3F2B4"/>
+</linearGradient>
+</defs>
+</svg>
