@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/css/styles.css" type="text/css">
+  <link rel="stylesheet" href="/static/css/contacus.css" type="text/css">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/img/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+  <title>Contact us</title>
+</head>
+
+<body class="full-height-grow">
+  <div class="container full-height-grow">
+    <header class="main-header">
+      <a href="{{url_for('login')}}" class="logo-brand">
+        <img src="/static/img/logo.svg" class="img-logo" alt="logo-name">
+        <div class="brand-name">My personal Site</div>
+      </a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="{{url_for('blog')}}">Blog</a></li>
+          <li><a href="{{url_for('aboutme')}}">About me</a></li>
+          <li><a href="{{url_for('logout')}}">Logout</a></li>
+
+        </ul>
+      </nav>
+    
+</header>
+  <div class="container contact-form">
+    <div class="contact-image">
+        <img src="/static/img/logo.svg" alt="logo-contact">
+    </div>
+    <form action="" method="post" class="form-post">
+        <h1>Message me!</h1>
+        <p>Have a quastion? I have an answer!</p>
+        <div class="row ms-5">
+            <div class="col-md-6 me-5">
+                <div class="form-group">
+                    <input type="text" name="Name" class="form-text" placeholder="Your Name" value="">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="Email" class="form-text" placeholder="Your Email" value="">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="Phone" class="form-text" placeholder="Your Phone Number" value="">
+                </div>
+            </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                     <textarea name="Msg" id="Messafe" placeholder="Your Message" style="width: 100%;height: 120px;"></textarea>   
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="submit" name="btnSubmit" class="btnContact" value="Send message">
+                    </div>
+                </div>
+        </div>
+    </form>
+
+  </div> 
+</div>
+    <footer class="main-footer">
+      <div class="container">
+        <nav class="footer-nav">
+          <ul>
+            <li>
+              <a href="{{url_for('aboutme')}}">About me</a>
+            </li>
+            <li>
+              <a href="{{url_for('contact_me')}}">Contact me!</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="footer-nav">
+          <ul>
+            <li>
+              <a href="#" class="social-link"
+                ><img src="/static/img/instagram.svg" />Instagram</a
+              >
+            </li>
+            <li>
+              <a href="#" class="social-link"
+                ><img src="/static/img/twitter.svg" />Twitter</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </div>  
+</body>
+</html>

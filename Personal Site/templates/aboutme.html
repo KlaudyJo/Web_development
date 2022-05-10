@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/css/aboutme.css" type="text/css">
+  <link rel="stylesheet" href="/static/css/styles.css" type="text/css">
+  <link rel="stylesheet" href="/static/css/aboutme.css" type="text/css">
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/img/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+  <title>About me</title>
+</head>
+
+<body class="full-height-grow">
+  <div class="container full-height-grow">
+    <header class="main-header">
+      <a href="{{url_for('login')}}" class="logo-brand">
+        <img src="/static/img/logo.svg" class="img-logo" alt="logo-name">
+        <div class="brand-name">My personal Site</div>
+      </a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="{{url_for('blog')}}">Blog</a></li>
+          <li><a href="{{url_for('logout')}}">Logout</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="section-about">
+      <div class="about-img ">
+      <img src="/static/img/woman-svgrepo-com.svg" alt="person">
+    </div>
+
+
+    <div>
+      <h1>Hello!</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing  Nihil, ea?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, ea?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati odit pariatur a consectetur commodi ea molestias autem reiciendis? Voluptatum, optio!</p>
+    </div>
+  </section>
+  <div>
+    <div>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas ad cum doloremque adipisci, numquam, quisquam, at magni accusantium excepturi neque officiis. Quam quidem amet, quaerat minima voluptas dolore ratione animi natus vitae? Sunt iure omnis modi molestias delectus totam consequuntur rem assumenda officia non porro minima debitis nemo explicabo id quidem possimus dolores odit voluptatem, qui illo inventore eius vero. Expedita beatae voluptatem dolores velit earum odio consequatur repellat soluta et! Quas facere quis doloribus similique fugiat molestias quibusdam tempore, modi accusantium optio, harum consequatur, rerum porro quam aspernatur consectetur reiciendis praesentium error ipsam mollitia. Ea accusamus commodi expedita! Quae?</p>
+
+  </div>
+   
+   
+    <div class="contact-btn">
+      <button type="submit" class="btn-contact" onclick="location.href='http://127.0.0.1:5000/contact'">Contact me!</button>
+
+    </div>
+    
+  </div>
+</section>
+</div>
+
+<footer class="main-footer">
+  <div class="container">
+    <nav class="footer-nav">
+      <ul>
+        <li>
+          <a href="{{url_for('aboutme')}}">About me</a>
+        </li>
+        <li>
+          <a href="#">Contact me!</a>
+        </li>
+      </ul>
+    </nav>
+    <nav class="footer-nav">
+      <ul>
+        <li>
+          <a href="#" class="social-link"
+            ><img src="/static/img/instagram.svg" />Instagram</a
+          >
+        </li>
+        <li>
+          <a href="#" class="social-link"
+            ><img src="/static/img/twitter.svg" />Twiter</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>
