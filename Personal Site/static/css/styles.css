@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;900&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #2F303A;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.75rem;
+  color: white;
+  min-height: 100vh;
+}
+
+.full-height-grow {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-brand{
+  display: flex;
+  align-items: center;
+  font-size: 1.0rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+.brand-name {
+  margin-left: 1rem;
+}
+
+.main-nav ul, .footer-nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: inherit;
+}
+
+
+.main-nav a, .footer-nav a {
+  color: inherit;
+  text-decoration: none;
+  padding: 1rem 2.5rem;
+  font-size: 1rem;
+
+}
+
+
+.main-nav a:hover, .footer-nav a:hover {
+  color: lightblue;
+}
+
+.main-header, .main-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-header{
+  height: 70px;
+}
+
+.main-footer {
+  height: 70px;
+  width: auto;
+  font-weight: bold;
+  background-color: #202027;
+
+}
+
+.social-link img {
+  width: 1.2rem;
+  margin-right: 0.3rem;
+
+}
+
+.main-footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  flex-grow: 1;
+}
+
+.btn {
+  height: 30px;
+  width: auto;
+  color: white;
+  background-color: rgba(0,56,54,1);
+  padding: .75rem, 1.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-size: .9rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: rgb(82,246,247) ;
+}
+
+.btn:focus{
+  background-color: rgb(82,246,247);
+}
+

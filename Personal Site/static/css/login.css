@@ -1,0 +1,33 @@
+.section-img {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 1rem;
+    margin-bottom: 2rem;
+}
+
+.section-img .img-row{
+    display: flex;
+    flex-flow: row;
+    border: solid 1px black;
+}
+.section-img img{
+    width: 125px;
+    height: 125px;
+}
+
+.register-div {
+    padding-top: 1rem;
+}
+
+.register-div a {
+    color:rgba(82,246,247,1) ;
+}
+
+
+@media (max-width: 650px) {
+  .section-img {
+    margin-bottom: 0.5rem;
+  }
+}

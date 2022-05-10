@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;900&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.body{
+  padding: 0;
+  margin: 0;
+  background: #2F303A;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  min-height: 100vh;
+}
+.logo-brand{
+  display: flex;
+  align-items: center;
+  font-size: 1.0rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+.brand-name {
+  margin-left: 1rem;
+}
+
+ .title.container.row{
+  min-height: 150px;
+}
+ .blog div{
+  padding: 25px;
+  
+}
+.title h1, .title p {
+  color:white;
+}
+
+.my-4{
+  margin-top: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.hr {
+  height: 1px;
+}
+
+@media screen and (max-width: 800px) {
+  container {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+}
+
+.posted  {
+  margin-top: 0;
+  font-size: 1.125rem;
+  font-style: italic;
+  color: white;
+  text-decoration: none;
+
+}
+
+.posted p {
+  font-size: 2rem;
+}
+.posted a {
+ 
+  color: #008F8C;
+  text-decoration: none; 
+}
+
+.post-preview {
+  margin-bottom: 0;
+}
+
+.post-preview > a {
+  color: #008F8C;
+}
+
+.px-4 {
+  padding-left: 1.5rem !important;
+  padding-right: 1.rem !important;
+}
+#title{
+  background-image: linear-gradient(#023535, #008F8C);
+  background-color: #212529;
+}
+
+.container .blog {
+  height: 300px;
+}
+
+
+.blog-container h1 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.blog-container h2 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.btn-moje{
+  text-align: center;
+  height: 40px;
+  width: 100px;
+  color: white;
+  background-color: rgba(0,56,54,1);
+  padding: .75rem, 1.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-size: .9rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-moje:hover{
+  background-color: rgb(82,246,247) ;
+}
+
+.btn-moje:focus{
+  background-color: rgb(82,246,247);
+}
