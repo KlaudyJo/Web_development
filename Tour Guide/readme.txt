@@ -1,1 +1,1 @@
-Final project from FrontEnd course. 
+Final project for FrontEnd course. 
