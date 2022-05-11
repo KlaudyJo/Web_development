@@ -1,2 +1,2 @@
-Project 2 from FrontEnd course.
-Backend - flask python not completed. 
+Second final project for FrontEnd course (Prague, 2022).
+Backend -flask, not completed. 
